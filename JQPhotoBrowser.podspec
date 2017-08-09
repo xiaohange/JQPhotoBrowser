@@ -8,13 +8,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
   s.source       = { :git => 'https://github.com/xiaohange/JQPhotoBrowser.git', :tag => s.version.to_s }
-  
-  s.requires_arc = true
-  s.source_files = 'JQPhotoBrowser/**/*.{h,m}'
-  s.public_header_files = 'JQPhotoBrowser/**/*.{h}'
-
-
+  s.source_files  = "JQPhotoBrowser/**/*.{h,m}"
+  s.public_header_files = "JQPhotoBrowser/**/*.h"
   s.frameworks = 'Foundation','UIKit'
   s.dependency 'SDWebImage'
-
+  s.requires_arc = true
 end

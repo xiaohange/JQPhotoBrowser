@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		474EFF041F3B11840001C389 /* JQPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 474EFEFF1F3B11840001C389 /* JQPhotoBrowser.m */; };
+		474EFF051F3B11840001C389 /* JQPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 474EFF011F3B11840001C389 /* JQPhotoItem.m */; };
+		474EFF061F3B11840001C389 /* JQPhotoItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 474EFF031F3B11840001C389 /* JQPhotoItemView.m */; };
 		478823991F3B0CDD007137C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 478823981F3B0CDD007137C3 /* main.m */; };
 		4788239C1F3B0CDD007137C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4788239B1F3B0CDD007137C3 /* AppDelegate.m */; };
 		4788239F1F3B0CDD007137C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4788239E1F3B0CDD007137C3 /* ViewController.m */; };
@@ -15,9 +18,6 @@
 		478823A71F3B0CDD007137C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478823A51F3B0CDD007137C3 /* LaunchScreen.storyboard */; };
 		478823B21F3B0CDD007137C3 /* JQPhotoBrowserDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 478823B11F3B0CDD007137C3 /* JQPhotoBrowserDemoTests.m */; };
 		478823BD1F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 478823BC1F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests.m */; };
-		478823D11F3B0CFB007137C3 /* JQPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 478823CC1F3B0CFB007137C3 /* JQPhotoBrowser.m */; };
-		478823D21F3B0CFB007137C3 /* JQPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 478823CE1F3B0CFB007137C3 /* JQPhotoItem.m */; };
-		478823D31F3B0CFB007137C3 /* JQPhotoItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 478823D01F3B0CFB007137C3 /* JQPhotoItemView.m */; };
 		7E2C127C351B8CD72C20C62E /* libPods-JQPhotoBrowserDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A2149689AA4AA3977F8E6A /* libPods-JQPhotoBrowserDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		474EFEFE1F3B11840001C389 /* JQPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQPhotoBrowser.h; sourceTree = "<group>"; };
+		474EFEFF1F3B11840001C389 /* JQPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQPhotoBrowser.m; sourceTree = "<group>"; };
+		474EFF001F3B11840001C389 /* JQPhotoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQPhotoItem.h; sourceTree = "<group>"; };
+		474EFF011F3B11840001C389 /* JQPhotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQPhotoItem.m; sourceTree = "<group>"; };
+		474EFF021F3B11840001C389 /* JQPhotoItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQPhotoItemView.h; sourceTree = "<group>"; };
+		474EFF031F3B11840001C389 /* JQPhotoItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQPhotoItemView.m; sourceTree = "<group>"; };
 		478823941F3B0CDD007137C3 /* JQPhotoBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQPhotoBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		478823981F3B0CDD007137C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4788239A1F3B0CDD007137C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,12 +61,6 @@
 		478823B81F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQPhotoBrowserDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		478823BC1F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQPhotoBrowserDemoUITests.m; sourceTree = "<group>"; };
 		478823BE1F3B0CDD007137C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		478823CB1F3B0CFB007137C3 /* JQPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQPhotoBrowser.h; sourceTree = "<group>"; };
-		478823CC1F3B0CFB007137C3 /* JQPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQPhotoBrowser.m; sourceTree = "<group>"; };
-		478823CD1F3B0CFB007137C3 /* JQPhotoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQPhotoItem.h; sourceTree = "<group>"; };
-		478823CE1F3B0CFB007137C3 /* JQPhotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQPhotoItem.m; sourceTree = "<group>"; };
-		478823CF1F3B0CFB007137C3 /* JQPhotoItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQPhotoItemView.h; sourceTree = "<group>"; };
-		478823D01F3B0CFB007137C3 /* JQPhotoItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQPhotoItemView.m; sourceTree = "<group>"; };
 		79827A6179BB54FE839FC012 /* Pods-JQPhotoBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQPhotoBrowserDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JQPhotoBrowserDemo/Pods-JQPhotoBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C8A2149689AA4AA3977F8E6A /* libPods-JQPhotoBrowserDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQPhotoBrowserDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8BFFAEDD38290A712E57A8 /* Pods-JQPhotoBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQPhotoBrowserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQPhotoBrowserDemo/Pods-JQPhotoBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,9 +92,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		474EFEFD1F3B11840001C389 /* JQPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				474EFEFE1F3B11840001C389 /* JQPhotoBrowser.h */,
+				474EFEFF1F3B11840001C389 /* JQPhotoBrowser.m */,
+				474EFF001F3B11840001C389 /* JQPhotoItem.h */,
+				474EFF011F3B11840001C389 /* JQPhotoItem.m */,
+				474EFF021F3B11840001C389 /* JQPhotoItemView.h */,
+				474EFF031F3B11840001C389 /* JQPhotoItemView.m */,
+			);
+			path = JQPhotoBrowser;
+			sourceTree = "<group>";
+		};
 		4788238B1F3B0CDD007137C3 = {
 			isa = PBXGroup;
 			children = (
+				474EFEFD1F3B11840001C389 /* JQPhotoBrowser */,
 				478823961F3B0CDD007137C3 /* JQPhotoBrowserDemo */,
 				478823B01F3B0CDD007137C3 /* JQPhotoBrowserDemoTests */,
 				478823BB1F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests */,
@@ -117,7 +131,6 @@
 		478823961F3B0CDD007137C3 /* JQPhotoBrowserDemo */ = {
 			isa = PBXGroup;
 			children = (
-				478823CA1F3B0CFB007137C3 /* JQPhotoBrowser */,
 				4788239A1F3B0CDD007137C3 /* AppDelegate.h */,
 				4788239B1F3B0CDD007137C3 /* AppDelegate.m */,
 				4788239D1F3B0CDD007137C3 /* ViewController.h */,
@@ -155,19 +168,6 @@
 				478823BE1F3B0CDD007137C3 /* Info.plist */,
 			);
 			path = JQPhotoBrowserDemoUITests;
-			sourceTree = "<group>";
-		};
-		478823CA1F3B0CFB007137C3 /* JQPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				478823CB1F3B0CFB007137C3 /* JQPhotoBrowser.h */,
-				478823CC1F3B0CFB007137C3 /* JQPhotoBrowser.m */,
-				478823CD1F3B0CFB007137C3 /* JQPhotoItem.h */,
-				478823CE1F3B0CFB007137C3 /* JQPhotoItem.m */,
-				478823CF1F3B0CFB007137C3 /* JQPhotoItemView.h */,
-				478823D01F3B0CFB007137C3 /* JQPhotoItemView.m */,
-			);
-			path = JQPhotoBrowser;
 			sourceTree = "<group>";
 		};
 		4CF66FA5ABCAB2BC1ED3D3FA /* Frameworks */ = {
@@ -377,12 +377,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				478823D11F3B0CFB007137C3 /* JQPhotoBrowser.m in Sources */,
-				478823D21F3B0CFB007137C3 /* JQPhotoItem.m in Sources */,
+				474EFF041F3B11840001C389 /* JQPhotoBrowser.m in Sources */,
+				474EFF051F3B11840001C389 /* JQPhotoItem.m in Sources */,
 				4788239F1F3B0CDD007137C3 /* ViewController.m in Sources */,
 				4788239C1F3B0CDD007137C3 /* AppDelegate.m in Sources */,
 				478823991F3B0CDD007137C3 /* main.m in Sources */,
-				478823D31F3B0CFB007137C3 /* JQPhotoItemView.m in Sources */,
+				474EFF061F3B11840001C389 /* JQPhotoItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

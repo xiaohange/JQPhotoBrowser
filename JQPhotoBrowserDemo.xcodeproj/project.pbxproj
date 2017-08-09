@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		478823991F3B0CDD007137C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 478823981F3B0CDD007137C3 /* main.m */; };
+		4788239C1F3B0CDD007137C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4788239B1F3B0CDD007137C3 /* AppDelegate.m */; };
+		4788239F1F3B0CDD007137C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4788239E1F3B0CDD007137C3 /* ViewController.m */; };
+		478823A21F3B0CDD007137C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478823A01F3B0CDD007137C3 /* Main.storyboard */; };
+		478823A41F3B0CDD007137C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478823A31F3B0CDD007137C3 /* Assets.xcassets */; };
+		478823A71F3B0CDD007137C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478823A51F3B0CDD007137C3 /* LaunchScreen.storyboard */; };
+		478823B21F3B0CDD007137C3 /* JQPhotoBrowserDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 478823B11F3B0CDD007137C3 /* JQPhotoBrowserDemoTests.m */; };
+		478823BD1F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 478823BC1F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests.m */; };
+		478823D11F3B0CFB007137C3 /* JQPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 478823CC1F3B0CFB007137C3 /* JQPhotoBrowser.m */; };
+		478823D21F3B0CFB007137C3 /* JQPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 478823CE1F3B0CFB007137C3 /* JQPhotoItem.m */; };
+		478823D31F3B0CFB007137C3 /* JQPhotoItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 478823D01F3B0CFB007137C3 /* JQPhotoItemView.m */; };
+		7E2C127C351B8CD72C20C62E /* libPods-JQPhotoBrowserDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A2149689AA4AA3977F8E6A /* libPods-JQPhotoBrowserDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		478823AE1F3B0CDD007137C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4788238C1F3B0CDD007137C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478823931F3B0CDD007137C3;
+			remoteInfo = JQPhotoBrowserDemo;
+		};
+		478823B91F3B0CDD007137C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4788238C1F3B0CDD007137C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478823931F3B0CDD007137C3;
+			remoteInfo = JQPhotoBrowserDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		478823941F3B0CDD007137C3 /* JQPhotoBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQPhotoBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		478823981F3B0CDD007137C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4788239A1F3B0CDD007137C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4788239B1F3B0CDD007137C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4788239D1F3B0CDD007137C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4788239E1F3B0CDD007137C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		478823A11F3B0CDD007137C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		478823A31F3B0CDD007137C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		478823A61F3B0CDD007137C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		478823A81F3B0CDD007137C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478823AD1F3B0CDD007137C3 /* JQPhotoBrowserDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQPhotoBrowserDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		478823B11F3B0CDD007137C3 /* JQPhotoBrowserDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQPhotoBrowserDemoTests.m; sourceTree = "<group>"; };
+		478823B31F3B0CDD007137C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478823B81F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQPhotoBrowserDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		478823BC1F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQPhotoBrowserDemoUITests.m; sourceTree = "<group>"; };
+		478823BE1F3B0CDD007137C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478823CB1F3B0CFB007137C3 /* JQPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQPhotoBrowser.h; sourceTree = "<group>"; };
+		478823CC1F3B0CFB007137C3 /* JQPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQPhotoBrowser.m; sourceTree = "<group>"; };
+		478823CD1F3B0CFB007137C3 /* JQPhotoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQPhotoItem.h; sourceTree = "<group>"; };
+		478823CE1F3B0CFB007137C3 /* JQPhotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQPhotoItem.m; sourceTree = "<group>"; };
+		478823CF1F3B0CFB007137C3 /* JQPhotoItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQPhotoItemView.h; sourceTree = "<group>"; };
+		478823D01F3B0CFB007137C3 /* JQPhotoItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQPhotoItemView.m; sourceTree = "<group>"; };
+		79827A6179BB54FE839FC012 /* Pods-JQPhotoBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQPhotoBrowserDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JQPhotoBrowserDemo/Pods-JQPhotoBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C8A2149689AA4AA3977F8E6A /* libPods-JQPhotoBrowserDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQPhotoBrowserDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8BFFAEDD38290A712E57A8 /* Pods-JQPhotoBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQPhotoBrowserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQPhotoBrowserDemo/Pods-JQPhotoBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478823911F3B0CDD007137C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2C127C351B8CD72C20C62E /* libPods-JQPhotoBrowserDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478823AA1F3B0CDD007137C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478823B51F3B0CDD007137C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4788238B1F3B0CDD007137C3 = {
+			isa = PBXGroup;
+			children = (
+				478823961F3B0CDD007137C3 /* JQPhotoBrowserDemo */,
+				478823B01F3B0CDD007137C3 /* JQPhotoBrowserDemoTests */,
+				478823BB1F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests */,
+				478823951F3B0CDD007137C3 /* Products */,
+				5BCB18DB7C5C84D06EDF9CF9 /* Pods */,
+				4CF66FA5ABCAB2BC1ED3D3FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		478823951F3B0CDD007137C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478823941F3B0CDD007137C3 /* JQPhotoBrowserDemo.app */,
+				478823AD1F3B0CDD007137C3 /* JQPhotoBrowserDemoTests.xctest */,
+				478823B81F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478823961F3B0CDD007137C3 /* JQPhotoBrowserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				478823CA1F3B0CFB007137C3 /* JQPhotoBrowser */,
+				4788239A1F3B0CDD007137C3 /* AppDelegate.h */,
+				4788239B1F3B0CDD007137C3 /* AppDelegate.m */,
+				4788239D1F3B0CDD007137C3 /* ViewController.h */,
+				4788239E1F3B0CDD007137C3 /* ViewController.m */,
+				478823A01F3B0CDD007137C3 /* Main.storyboard */,
+				478823A31F3B0CDD007137C3 /* Assets.xcassets */,
+				478823A51F3B0CDD007137C3 /* LaunchScreen.storyboard */,
+				478823A81F3B0CDD007137C3 /* Info.plist */,
+				478823971F3B0CDD007137C3 /* Supporting Files */,
+			);
+			path = JQPhotoBrowserDemo;
+			sourceTree = "<group>";
+		};
+		478823971F3B0CDD007137C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				478823981F3B0CDD007137C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		478823B01F3B0CDD007137C3 /* JQPhotoBrowserDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				478823B11F3B0CDD007137C3 /* JQPhotoBrowserDemoTests.m */,
+				478823B31F3B0CDD007137C3 /* Info.plist */,
+			);
+			path = JQPhotoBrowserDemoTests;
+			sourceTree = "<group>";
+		};
+		478823BB1F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				478823BC1F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests.m */,
+				478823BE1F3B0CDD007137C3 /* Info.plist */,
+			);
+			path = JQPhotoBrowserDemoUITests;
+			sourceTree = "<group>";
+		};
+		478823CA1F3B0CFB007137C3 /* JQPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				478823CB1F3B0CFB007137C3 /* JQPhotoBrowser.h */,
+				478823CC1F3B0CFB007137C3 /* JQPhotoBrowser.m */,
+				478823CD1F3B0CFB007137C3 /* JQPhotoItem.h */,
+				478823CE1F3B0CFB007137C3 /* JQPhotoItem.m */,
+				478823CF1F3B0CFB007137C3 /* JQPhotoItemView.h */,
+				478823D01F3B0CFB007137C3 /* JQPhotoItemView.m */,
+			);
+			path = JQPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		4CF66FA5ABCAB2BC1ED3D3FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A2149689AA4AA3977F8E6A /* libPods-JQPhotoBrowserDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BCB18DB7C5C84D06EDF9CF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BFFAEDD38290A712E57A8 /* Pods-JQPhotoBrowserDemo.debug.xcconfig */,
+				79827A6179BB54FE839FC012 /* Pods-JQPhotoBrowserDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		478823931F3B0CDD007137C3 /* JQPhotoBrowserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478823C11F3B0CDD007137C3 /* Build configuration list for PBXNativeTarget "JQPhotoBrowserDemo" */;
+			buildPhases = (
+				4B8FA0D3D42D9314E28CC634 /* [CP] Check Pods Manifest.lock */,
+				478823901F3B0CDD007137C3 /* Sources */,
+				478823911F3B0CDD007137C3 /* Frameworks */,
+				478823921F3B0CDD007137C3 /* Resources */,
+				68A0EB918C1328E4C1FA9255 /* [CP] Embed Pods Frameworks */,
+				71630A32555288B4E922551E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQPhotoBrowserDemo;
+			productName = JQPhotoBrowserDemo;
+			productReference = 478823941F3B0CDD007137C3 /* JQPhotoBrowserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		478823AC1F3B0CDD007137C3 /* JQPhotoBrowserDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478823C41F3B0CDD007137C3 /* Build configuration list for PBXNativeTarget "JQPhotoBrowserDemoTests" */;
+			buildPhases = (
+				478823A91F3B0CDD007137C3 /* Sources */,
+				478823AA1F3B0CDD007137C3 /* Frameworks */,
+				478823AB1F3B0CDD007137C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478823AF1F3B0CDD007137C3 /* PBXTargetDependency */,
+			);
+			name = JQPhotoBrowserDemoTests;
+			productName = JQPhotoBrowserDemoTests;
+			productReference = 478823AD1F3B0CDD007137C3 /* JQPhotoBrowserDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		478823B71F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478823C71F3B0CDD007137C3 /* Build configuration list for PBXNativeTarget "JQPhotoBrowserDemoUITests" */;
+			buildPhases = (
+				478823B41F3B0CDD007137C3 /* Sources */,
+				478823B51F3B0CDD007137C3 /* Frameworks */,
+				478823B61F3B0CDD007137C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478823BA1F3B0CDD007137C3 /* PBXTargetDependency */,
+			);
+			name = JQPhotoBrowserDemoUITests;
+			productName = JQPhotoBrowserDemoUITests;
+			productReference = 478823B81F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4788238C1F3B0CDD007137C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HaRi;
+				TargetAttributes = {
+					478823931F3B0CDD007137C3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K2K9REBKPR;
+						ProvisioningStyle = Automatic;
+					};
+					478823AC1F3B0CDD007137C3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 478823931F3B0CDD007137C3;
+					};
+					478823B71F3B0CDD007137C3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 478823931F3B0CDD007137C3;
+					};
+				};
+			};
+			buildConfigurationList = 4788238F1F3B0CDD007137C3 /* Build configuration list for PBXProject "JQPhotoBrowserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4788238B1F3B0CDD007137C3;
+			productRefGroup = 478823951F3B0CDD007137C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				478823931F3B0CDD007137C3 /* JQPhotoBrowserDemo */,
+				478823AC1F3B0CDD007137C3 /* JQPhotoBrowserDemoTests */,
+				478823B71F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		478823921F3B0CDD007137C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478823A71F3B0CDD007137C3 /* LaunchScreen.storyboard in Resources */,
+				478823A41F3B0CDD007137C3 /* Assets.xcassets in Resources */,
+				478823A21F3B0CDD007137C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478823AB1F3B0CDD007137C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478823B61F3B0CDD007137C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B8FA0D3D42D9314E28CC634 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JQPhotoBrowserDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68A0EB918C1328E4C1FA9255 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQPhotoBrowserDemo/Pods-JQPhotoBrowserDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71630A32555288B4E922551E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQPhotoBrowserDemo/Pods-JQPhotoBrowserDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		478823901F3B0CDD007137C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478823D11F3B0CFB007137C3 /* JQPhotoBrowser.m in Sources */,
+				478823D21F3B0CFB007137C3 /* JQPhotoItem.m in Sources */,
+				4788239F1F3B0CDD007137C3 /* ViewController.m in Sources */,
+				4788239C1F3B0CDD007137C3 /* AppDelegate.m in Sources */,
+				478823991F3B0CDD007137C3 /* main.m in Sources */,
+				478823D31F3B0CFB007137C3 /* JQPhotoItemView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478823A91F3B0CDD007137C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478823B21F3B0CDD007137C3 /* JQPhotoBrowserDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478823B41F3B0CDD007137C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478823BD1F3B0CDD007137C3 /* JQPhotoBrowserDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		478823AF1F3B0CDD007137C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478823931F3B0CDD007137C3 /* JQPhotoBrowserDemo */;
+			targetProxy = 478823AE1F3B0CDD007137C3 /* PBXContainerItemProxy */;
+		};
+		478823BA1F3B0CDD007137C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478823931F3B0CDD007137C3 /* JQPhotoBrowserDemo */;
+			targetProxy = 478823B91F3B0CDD007137C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		478823A01F3B0CDD007137C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478823A11F3B0CDD007137C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		478823A51F3B0CDD007137C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478823A61F3B0CDD007137C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		478823BF1F3B0CDD007137C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		478823C01F3B0CDD007137C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		478823C21F3B0CDD007137C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB8BFFAEDD38290A712E57A8 /* Pods-JQPhotoBrowserDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2K9REBKPR;
+				INFOPLIST_FILE = JQPhotoBrowserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQPhotoBrowserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		478823C31F3B0CDD007137C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79827A6179BB54FE839FC012 /* Pods-JQPhotoBrowserDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2K9REBKPR;
+				INFOPLIST_FILE = JQPhotoBrowserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQPhotoBrowserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		478823C51F3B0CDD007137C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQPhotoBrowserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQPhotoBrowserDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQPhotoBrowserDemo.app/JQPhotoBrowserDemo";
+			};
+			name = Debug;
+		};
+		478823C61F3B0CDD007137C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQPhotoBrowserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQPhotoBrowserDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQPhotoBrowserDemo.app/JQPhotoBrowserDemo";
+			};
+			name = Release;
+		};
+		478823C81F3B0CDD007137C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQPhotoBrowserDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQPhotoBrowserDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQPhotoBrowserDemo;
+			};
+			name = Debug;
+		};
+		478823C91F3B0CDD007137C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQPhotoBrowserDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQPhotoBrowserDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQPhotoBrowserDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4788238F1F3B0CDD007137C3 /* Build configuration list for PBXProject "JQPhotoBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478823BF1F3B0CDD007137C3 /* Debug */,
+				478823C01F3B0CDD007137C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478823C11F3B0CDD007137C3 /* Build configuration list for PBXNativeTarget "JQPhotoBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478823C21F3B0CDD007137C3 /* Debug */,
+				478823C31F3B0CDD007137C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478823C41F3B0CDD007137C3 /* Build configuration list for PBXNativeTarget "JQPhotoBrowserDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478823C51F3B0CDD007137C3 /* Debug */,
+				478823C61F3B0CDD007137C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478823C71F3B0CDD007137C3 /* Build configuration list for PBXNativeTarget "JQPhotoBrowserDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478823C81F3B0CDD007137C3 /* Debug */,
+				478823C91F3B0CDD007137C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4788238C1F3B0CDD007137C3 /* Project object */;
+}

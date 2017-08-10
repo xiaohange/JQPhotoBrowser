@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "JQPhotoItem.h"
-#import <UIImageView+WebCache.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 
 #define SlowAnimateTime  0.3
 #define FastAnimateTime  0.3

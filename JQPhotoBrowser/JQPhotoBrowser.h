@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "JQPhotoItem.h"
-#import <UIImageView+WebCache.h>
-
+#import <SDWebImage/UIImageView+WebCache.h>
 
 typedef enum : NSUInteger {
     bottomPageCtrType,

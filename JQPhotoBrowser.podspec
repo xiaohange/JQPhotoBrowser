@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "JQPhotoBrowser"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.summary      = "A copy of WeChat's picture browser."
 s.homepage     = "https://github.com/xiaohange/JQPhotoBrowser"
 s.license      = { :type => "MIT", :file => "LICENSE" }
